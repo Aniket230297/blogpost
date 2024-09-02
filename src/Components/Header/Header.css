@@ -86,7 +86,7 @@
     }
 
     .actions input[type="text"] {
-        width: calc(100% - 150px); /* Adjust based on the size of the button */
+        width: calc(100% - 150px); 
     }
 
     .actions .btn-signup {

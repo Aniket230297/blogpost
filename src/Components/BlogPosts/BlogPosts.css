@@ -1,4 +1,4 @@
-/* BlogPosts.css */
+
 
 .blog-posts {
   max-width: 800px;
@@ -55,11 +55,9 @@
 
 .post-navigation {
   display: flex;
-  /* justify-content: space-between; */
   margin-top: 40px;
   padding-top: 20px;
   gap:10px;
-  /* border-top: 1px solid #ddd; */
 }
 
 .post-navigation a {

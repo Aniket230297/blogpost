@@ -1,4 +1,4 @@
-/* BlogForm.css */
+
 .blog-form {
   display: flex;
   flex-direction: column;
@@ -37,7 +37,6 @@
   background-color: #0056b3;
 }
 
-/* BlogList.css */
 .blog-list {
   margin: 20px 0;
 }
