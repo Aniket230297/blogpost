@@ -1,0 +1,80 @@
+/* FeaturedPost.css */
+
+.featured-post {
+    background-color: #343a40;
+    color: #fff;
+    /* padding: 40px 20px; */
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+  }
+  
+  .featured-post-section{
+    width:50%;
+  }
+
+  .featured-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .featured-description {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .continue-reading {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .continue-reading:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  
+  /* Breakpoint for screens 1240px and above */
+  @media (min-width: 1240px) {
+    .featured-post {
+      padding: 40px 20px;
+      text-align: left;
+    }
+  
+    .featured-title {
+      font-size: 3rem;
+    }
+  
+    .featured-description {
+      font-size: 1.5rem;
+    }
+  
+    .continue-reading {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Breakpoint for screens 400px and below */
+  @media (max-width: 400px) {
+    .featured-post {
+      padding: 20px 10px;
+    }
+  
+    .featured-title {
+      font-size: 1.75rem;
+    }
+  
+    .featured-description {
+      font-size: 1rem;
+    }
+  
+    .continue-reading {
+      font-size: 1rem;
+    }
+  }
+  

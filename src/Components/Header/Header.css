@@ -1,0 +1,144 @@
+.blog-header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34px;
+}
+
+.nav a {
+    color: #6c757d;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.actions input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.actions .btn-signup {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actions .btn-signup:hover {
+    background-color: #0056b3;
+}
+
+/* Breakpoint for screens smaller than 1240px */
+@media (max-width: 1240px) {
+    .container {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blog-title {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .actions {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .actions input[type="text"] {
+        width: calc(100% - 150px); /* Adjust based on the size of the button */
+    }
+
+    .actions .btn-signup {
+        width: 130px;
+        text-align: center;
+    }
+
+    .nav {
+        gap: 20px;
+    }
+}
+
+/* Breakpoint for screens smaller than 400px */
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-title {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .actions input[type="text"] {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .actions .btn-signup {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}

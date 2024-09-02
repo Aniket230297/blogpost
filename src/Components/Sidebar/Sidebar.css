@@ -1,0 +1,82 @@
+/* Sidebar.css */
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .sidebar p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  
+  /* Breakpoint for screens 1240px and above */
+  @media (min-width: 1240px) {
+    .sidebar {
+      padding: 30px;
+    }
+  
+    .sidebar h3 {
+      font-size: 1.75rem;
+    }
+  
+    .sidebar p {
+      font-size: 1.125rem;
+    }
+  
+    .sidebar ul li a {
+      font-size: 1.125rem;
+    }
+  }
+  
+  /* Breakpoint for screens 400px and below */
+  @media (max-width: 400px) {
+    .sidebar {
+      padding: 15px;
+    }
+  
+    .sidebar h3 {
+      font-size: 1.25rem;
+    }
+  
+    .sidebar p {
+      font-size: 0.9rem;
+    }
+  
+    .sidebar ul li a {
+      font-size: 0.9rem;
+    }
+  }
+  

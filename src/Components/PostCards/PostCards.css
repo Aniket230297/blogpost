@@ -1,0 +1,102 @@
+.post-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .card {
+    display: flex;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-div {
+    width: 70%;
+  }
+  
+  .category {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post-date {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .post-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .thumbnail {
+    width: 30%;
+    height: 100%;
+    background-color: #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .continue-reading {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .continue-reading:hover {
+    text-decoration: underline;
+  }
+  
+  /* Breakpoint for screens smaller than 1240px */
+  @media (max-width: 1240px) {
+    .post-cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .card-div {
+      width: 100%;
+    }
+  
+    .thumbnail {
+      width: 100%;
+      height: 150px;
+    }
+  }
+  
+  /* Breakpoint for screens smaller than 400px */
+  @media (max-width: 400px) {
+    .card {
+      padding: 10px;
+    }
+  
+    .post-title {
+      font-size: 20px;
+    }
+  
+    .post-description {
+      font-size: 14px;
+    }
+  
+    .thumbnail {
+      height: 120px;
+    }
+  }
+  

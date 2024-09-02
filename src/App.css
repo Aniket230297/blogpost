@@ -1,0 +1,64 @@
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+.form-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.open-form-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.open-form-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 1240px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .post-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-content {
+    padding: 5px;
+  }
+
+  .post-content {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
